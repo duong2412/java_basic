@@ -1,4 +1,4 @@
-package oop;
+package oop.collection;
 
 public class Bank {
 
@@ -12,6 +12,10 @@ public class Bank {
         this.balance = balance;
         this.name = name;
         this.phone = phone;
+    }
+
+    public Bank() {
+
     }
 
     public String getAccountNumber() {

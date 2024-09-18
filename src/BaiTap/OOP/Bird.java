@@ -1,9 +1,9 @@
 package BaiTap.OOP;
 
-public class Bird implements Animal{
+public class Bird extends Animal{
     @Override
     public void eat() {
-
+        System.out.println("bird");
     }
 
     @Override

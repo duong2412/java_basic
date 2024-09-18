@@ -14,6 +14,7 @@ public class Main {
     // tạo 2 phương thức gửi tiền và rút tiền
 
         Bank bank = new Bank("123123",500,"Nguyen Van A","1231");
+        bank.setPhone("123");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập số tiền ");
         double money = scanner.nextDouble();

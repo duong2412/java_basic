@@ -4,7 +4,7 @@ public class Rectangle {
     private Double chieuDai;
     private Double chieuRong;
 
-    public Rectangle(Double chieuDai, Double chieuRong) {
+    public Rectangle(double chieuDai, Double chieuRong) {
         this.chieuDai = chieuDai;
         this.chieuRong = chieuRong;
     }
@@ -29,7 +29,7 @@ public class Rectangle {
     }
 
 
-    public void dienTichHinhChuNhat(double chieuDai, double chieuRong){
+    public void dienTichHinhChuNhat(){
        System.out.println("Diện tích hình chữ nhật là:" + (chieuDai * chieuRong));
     }
     public void chuViHinhChuNhat(double chieuDai, double chieuRong){
